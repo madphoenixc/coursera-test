@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	background-color: #bd653c;
+}
+p {
+		clear:right;
+		position: relative;
+		padding-top:5px;
+		font-family:"Lucida Console", Monaco, monospace
+	}
+h1{
+	text-align:center;
+	color:#03fc13;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 175%;
+	margin-top:15px;
+}
+section {
+		position: relative;
+	
+		padding: 15px;
+		width: 100%;
+	}
+
+#first{
+	
+float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		font-family:"Comic Sans MS", "Comic Sans", cursive;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: maroon;;
+
+border-left:2px solid black;
+border-bottom:2px solid black;
+}
+#second{
+
+float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		font-family:"Comic Sans MS", "Comic Sans", cursive;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color:#05fcf4;;
+
+border-left:2px solid black;
+border-bottom:2px solid black;
+
+}
+
+#third 
+{
+	float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		font-family:"Comic Sans MS", "Comic Sans", cursive;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: #fcf805;
+
+border-left:2px solid black;
+border-bottom:2px solid black;
+}
+
+div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
+@media (min-width: 992px) {
+     .col-lg-3{
+        float: left;
+      
+    }
+  
+    .col-lg-3 {
+        width: 33.33%;
+    }
+    
+    
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float:left;
+  
+  }
+ 
+  .col-md-6 {
+    width: 50%;
+    margin-left: auto;
+			margin-right: auto;
+
+    }
+ 
+  .col-md-12 {
+    width: 100%;
+    margin-left: auto;
+			margin-right: auto;
+    
+  }
+
+
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
